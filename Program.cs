@@ -38,7 +38,7 @@ namespace ConsoleApp10
             {
                 Console.Write("Sua nota foi D ");
             }
-            else if (final == 0,0 )
+            else if (final == 0.0 )
             {
                 Console.Write("Sua nota foi E ");
             }
