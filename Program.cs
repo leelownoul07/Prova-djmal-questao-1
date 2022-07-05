@@ -22,7 +22,7 @@ namespace ConsoleApp10
            nota2 = Convert.ToDouble(Console.ReadLine());
            final = (notat + nota1 + nota2) / 3;
 
-            if (final >= 8.5 && final >= 10)
+            if (final >= 8.5)
             {
                 Console.Write("Sua nota foi A");
             }
