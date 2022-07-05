@@ -16,13 +16,13 @@ namespace ConsoleApp10
            nome = Console.ReadLine();
            Console.Write("nota do trabalho: ");
            notat = Convert.ToDouble(Console.ReadLine());
-           Console.Write("digite nota 1:  ");
+           Console.Write("digite prova 1:  ");
            nota1 = Convert.ToDouble(Console.ReadLine());
-           Console.Write("digite nota 2:  ");
+           Console.Write("digite prova 2:  ");
            nota2 = Convert.ToDouble(Console.ReadLine());
            final = (notat + nota1 + nota2) / 3;
 
-            if (final >= 8.5)
+            if (final >= 8.5 && final >= 10)
             {
                 Console.Write("Sua nota foi A");
             }
@@ -38,10 +38,12 @@ namespace ConsoleApp10
             {
                 Console.Write("Sua nota foi D ");
             }
-            else
+            else if (final == 0,0 )
             {
                 Console.Write("Sua nota foi E ");
             }
+            else 
+                Console.Write("Erro digite novamente");
             Console.ReadKey();
 
 
